@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import CategoryMenu from './components/CategoryMenu.vue'
+import CategoryMenu from "./components/CategoryMenu.vue"
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     CategoryMenu
   }
