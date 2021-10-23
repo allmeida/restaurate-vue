@@ -52,6 +52,7 @@
       </li>
     </ul>
     <h3>Ecosystem</h3>
+    <Smothie />
     <ul>
       <li>
         <a href="https://router.vuejs.org" target="_blank" rel="noopener"
@@ -87,8 +88,14 @@
 </template>
 
 <script>
+
+import Smothie from '../assets/icons/smothie.svg'
+
 export default {
   name: "HelloWorld",
+  components: {
+    Smothie
+  },
   props: {
     msg: String,
   },
