@@ -40,6 +40,27 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 
+.category-menu {
+    width: 130px;
+    height: 100vh;
+    background: white;
+
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        width: 100%;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
 </style>
