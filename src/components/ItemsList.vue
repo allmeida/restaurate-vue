@@ -29,6 +29,9 @@ export default {
 }
 </script>
 
-<style >
-
+<style style="less" scoped>
+  .items-list {
+    margin:50px;
+    display:flex;
+  }
 </style>
