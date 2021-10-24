@@ -29,9 +29,13 @@ export default {
 }
 </script>
 
-<style style="less" scoped>
-  .items-list {
-    margin:50px;
-    display:flex;
+<style lang="less" scoped>
+.items-list {
+  margin: 50px;
+  display: flex;
+
+  @media @tablets {
+    flex-wrap:wrap;
   }
+}
 </style>
